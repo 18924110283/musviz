@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 运行时生成
+layout.json
+default.json
+_tmp.wav
+_render_tmp.wav
+*.log
+
+# 媒体文件（不要提交版权素材）
+*.mp3
+*.wav
+*.flac
+*.m4a
+*.ogg
+*.aac
+*.mp4
+*.webm
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
+*.webp
+!docs/*.png
+
+# 可执行文件
+ffmpeg
+ffmpeg.exe
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
